@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+      <Button
+          android:id="@+id/tipoftheday_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/tipoftheday_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+
+
+      <Button
+          android:id="@+id/wight_loss_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/wight_loss_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+
+      <Button
+          android:id="@+id/hair_fall_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/hair_fall_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+
+      <Button
+          android:id="@+id/wight_gain_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/wight_gain_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+
+      <Button
+          android:id="@+id/beauty_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/beauty_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+      <Button
+          android:id="@+id/teeth_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/teeth_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+      <Button
+          android:id="@+id/digestion_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/digestion_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+      <Button
+          android:id="@+id/yoga_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/yoga_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+          />
+
+      <Button
+          android:id="@+id/stress_relief_bt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/stress_tip_lb"
+          android:layout_marginTop="5dp"
+          android:background="@drawable/round_corner"
+          android:textColor="#ffffff"
+          android:textSize="18sp"
+         />
+
+      <com.google.android.gms.ads.AdView
+          xmlns:ads="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/banadView2"
+          android:layout_gravity="center_horizontal"
+          android:layout_width="match_parent"
+          android:layout_marginTop="15dp"
+          android:layout_height="match_parent"
+          ads:adSize="BANNER"
+          ads:adUnitId="ca-app-pub-2997250392892049/4514192716">
+      </com.google.android.gms.ads.AdView>
+   </LinearLayout>
+
+
+

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Healthy Life Tips (Hindi)</string>
+    <string name="company_name">Shivanand Enterprise</string>
+    <string name="tipoftheday_lb">आज के लिए विशेष टिप्स</string>
+    <string name="alltip_lb">All Tips</string>
+    <string name="welcomeBt_lb">आपका स्वागत है</string>
+    <string name="title_lb">Healthy Life Tips</string>
+    <string name="title_little_lb">स्वस्थ जीवन के लिए सुझाव</string>
+    <string name="ty_lb">Thank you</string>
+
+    <string name="disclamir_head">Disclaimer</string>
+    <string name="aboutus_head">About Us</string>
+    <string name="aboutus_data">Welcome to Health Care Tips (Hindi), your one source for all things for Health Care tips. We are dedicated to giving you the very best of our knowledge of our experts. We hope you enjoy our app as much as we enjoy offering them to you. If you have any questions or comments, please do not hesitate to contact us.</string>
+    <string name="disclamir_data">इस जानकारी की सटीकता, समयबद्धता और वास्तविकता सुनिश्चित करने का हर सम्भव प्रयास किया गया है हालांकि इसकी नैतिक जि़म्मेदारी  Health Care Tips की नहीं है। हमारा आपसे विनम्र निवेदन है कि किसी भी उपाय को आजमाने से पहले अपने चिकित्सक से अवश्य संपर्क करें। हमारा उद्देश्य आपको जानकारी मुहैया कराना मात्र है।</string>
+    <string name="wait_lb">Loading....</string>
+    <string name="aboutus_data2">Sincerely,</string>
+    <string name="teamname">Healthy Life Tips Team</string>
+    <string name="emailID">shivanand.enterprise66@gmail.com</string>
+    <string name="category_lb">Category</string>
+
+
+    <string name="back_lb">Back</string>
+    <string name="next_lb">Next</string>
+
+    <string name="read_lb">आगे पढ़ें</string>
+    <string name="close_lb">Close</string>
+
+    <string name="share_lb">Share</string>
+
+    <string name="wight_loss_tip_lb">वजन घटाने के उपाय</string>
+    <string name="hair_fall_tip_lb">बाल झड़ने से बचाव के उपाय</string>
+    <string name="wight_gain_tip_lb">वजन बढ़ाने के उपाय</string>
+    <string name="beauty_tip_lb">सुंदरता के उपाय</string>
+    <string name="teeth_tip_lb">दांतों की समस्या के उपाय</string>
+    <string name="digestion_tip_lb">पाचन के लिए उपाय</string>
+    <string name="yoga_tip_lb">योगासनों</string>
+    <string name="stress_tip_lb">तनाव को दूर करने के उपाय</string>
+
+
+
+</resources>

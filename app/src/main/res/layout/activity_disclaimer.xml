@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="10dp"
+    tools:context=".Disclaimer">
+
+    <TextView
+        android:id="@+id/disclaimer_title"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/disclamir_head" />
+
+    <TextView
+        android:id="@+id/disclaimer_Data"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:text="@string/disclamir_data" />
+
+    <LinearLayout
+        android:id="@+id/dis_linear2"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/banadView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2997250392892049/2151403230">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</LinearLayout>
